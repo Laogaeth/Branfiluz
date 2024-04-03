@@ -6,9 +6,18 @@
         flex-direction: column;
         gap: var(--margin-base);
 
-            &title{
+            &-title{
                 display: flex;
                 flex-direction: row-reverse;
+            }
+
+            &-content{
+                display: flex;
+                gap: var(--margin-l);
+
+                img{
+                    width: 20rem;
+                }
             }
         
     }

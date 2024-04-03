@@ -2,15 +2,15 @@
     &card{
         height: var(--card-m);
         width:  calc(var(--card-m) *1.5);
-        background: var(--color-neutral);
+        background: var(--color-primary);
         padding: var(--padding-m);
         z-index: var(--z-index-low);
         border-radius: var(--border-radius-base);
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
-        &-wrapper{
-            display: flex;
-            justify-content: space-evenly;
+        p{
+            color: var(--color-neutral);
         }
+
     }
 }
