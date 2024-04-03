@@ -1,0 +1,27 @@
+.#{$prefix}{
+
+    &nav{
+        background: var(--color-primary);
+        z-index: var(--z-index-medium);
+        
+
+        .navbar-nav{
+            .nav-link{
+                color: var(--color-secondary);
+
+                &.active{
+                    color: red;
+                }
+            }
+        }
+    }
+
+    &logo{
+        img{
+            max-height: 3rem;   
+        }
+        
+    }
+
+
+}

@@ -1,0 +1,21 @@
+.#{$prefix}{
+    &hero{
+        width: 100%;
+        height: 25rem;
+        
+            img{
+                height: 100%;
+                width: 100%;
+                filter: blur(4px);
+                filter: brightness(50%);
+                transform: scale(1.05)
+               
+            }
+
+            .#{$prefix}card{
+                margin-top: calc(var(--margin-top-l) * -3);
+            }
+
+
+    }
+}

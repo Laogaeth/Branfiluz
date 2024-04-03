@@ -1,0 +1,64 @@
+@import "foundations/_foundations";
+@import "components/_components";
+
+
+// brand-colors.scss
+:root{
+    
+    --color-primary:         #07413c;
+    --color-primary-light:   #1c4d4c;
+    --color-primary-lighter: #295751;
+    --color-primary-dark:    #04443c;
+
+    --color-secondary: #e8d9c9;
+
+    --color-neutral: #f9f9f9;
+
+
+    --card-m: 15rem;
+
+
+    --margin-s: 6px ;
+    --margin-base: 12px;
+    --margin-m: 20px;
+    --margin-l: 40px;
+    
+    --margin-top-s:    var(--margin-s) ;
+    --margin-top-base: var(--margin-base);
+    --margin-top-m:    var(--margin-m);
+    --margin-top-l:    var(--margin-l);
+    
+    --margin-right-s:    var(--margin-s) ;
+    --margin-right-base: var(--margin-base);
+    --margin-right-m:    var(--margin-m);
+    --margin-right-l:    var(--margin-l);
+    
+    --margin-bottom-s:    var(--margin-s) ;
+    --margin-bottom-base: var(--margin-base);
+    --margin-bottom-m:    var(--margin-m);
+    --margin-bottom-l:    var(--margin-l);
+    
+    --margin-left-s:    var(--margin-s) ;
+    --margin-left-base: var(--margin-base);
+    --margin-left-m:    var(--margin-m);
+    --margin-left-l:    var(--margin-l);
+    
+    --padding-s:    var(--margin-s) ;
+    --padding-base: var(--margin-base);
+    --padding-m:    var(--margin-m);
+    --padding-l:    var(--margin-l);
+
+
+    --border-radius-s:    var(--margin-s) ;
+    --border-radius-base: var(--margin-base);
+    --border-radius-m:    var(--margin-m);
+    --border-radius-l:    var(--margin-l);
+
+
+    --z-index-low: 0;
+    --z-index-base: 1;
+    --z-index-medium: 5;
+    --z-index-high: 20;
+
+
+}

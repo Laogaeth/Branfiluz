@@ -1,0 +1,9 @@
+.#{$prefix}nav{
+    height: 4rem;
+
+}
+
+body{
+    //overrides bootstrap native reboot css background
+    background: var(--color-primary) !important;
+}

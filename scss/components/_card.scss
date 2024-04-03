@@ -1,0 +1,15 @@
+.#{$prefix}{
+    &card{
+        height: var(--card-m);
+        width:  calc(var(--card-m) *1.5);
+        background: var(--color-neutral);
+        padding: var(--padding-m);
+        z-index: var(--z-index-low);
+        border-radius: var(--border-radius-base);
+
+        &-wrapper{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+}
