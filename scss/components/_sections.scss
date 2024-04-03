@@ -1,22 +1,49 @@
 .#{$prefix}{
-    &handmade{
-        margin-top: calc( var(--margin-top-l) *3);
-        background: var(--color-secondary);
+    &info{
+        margin-top: calc( var(--margin-top-l) *2);
         display: flex;
         flex-direction: column;
         gap: var(--margin-base);
+        padding: 0 var(--padding-l) var(--padding-l) var(--padding-l);
 
             &-title{
                 display: flex;
                 flex-direction: row-reverse;
+                margin-top: var(--margin-l);
+                color: var(--color-neutral);
+
+                &.#{$prefix}tailored{
+                   flex-direction: row;
+                }
+            
             }
 
             &-content{
                 display: flex;
                 gap: var(--margin-l);
+                justify-content: space-between;
+                flex-wrap: wrap;
+                
+                p{
+                    width: 30rem;
+                    color: var(--color-neutral);
+                }
 
                 img{
                     width: 20rem;
+                }
+            }
+
+            &.#{$prefix}handmade{
+                background: linear-gradient(135deg, var(--color-primary) 50%, var(--color-secondary) 50%);
+            }
+        
+            &.#{$prefix}tailored{
+                background: linear-gradient(40deg, var(--color-primary) 50%,transparent 50%);
+                padding-bottom:0 ;
+
+                img{
+                    width: 40rem;
                 }
             }
         
