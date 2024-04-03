@@ -8,9 +8,6 @@ logs
 *.log
 npm-debug.log*
 
-# Ignore the build directory
-dist/
-
 # Ignore .env files as they usually contain sensitive information
 .env
 
