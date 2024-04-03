@@ -1,0 +1,25 @@
+{
+  "name": "branfiluz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laogaeth/Branfiluz.git"
+  },
+  "keywords": [
+    "Branfiluz"
+  ],
+  "author": "Pedro Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laogaeth/Branfiluz/issues"
+  },
+  "homepage": "https://github.com/Laogaeth/Branfiluz#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
